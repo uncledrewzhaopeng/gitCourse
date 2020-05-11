@@ -1,10 +1,10 @@
 # [GIT]开发者角色使用教程  
   
-#### 下载项目.  
+#### 下载项目
   
 1.把项目下载到自己的本地文件夹(cd 到想要存储工程的文件夹)  
   
-  `git clone https://gitee.com/HuaLongXunDaYiDong/gitCourse.git`  
+  `git clone 远程仓库地址`  
   
   
   
@@ -12,7 +12,7 @@
   
 1.设置仓库地址    
   
-  `git remote add origin https://gitee.com/HuaLongXunDaYiDong/gitCourse.git`  
+  `git remote add origin 远程仓库地址`  
   
   
 2.执行对比操作,对比云端代码与本地代码的差异  
@@ -29,7 +29,7 @@
   
 #### 错误汇总  
   
-##### 1.如果 [设置仓库地址出错]`git remote add https:...`  
+##### 1.如果 [设置仓库地址出错]`git remote add 远程仓库地址`  
 *   错误描述：  
 >git提示出错信息：fatal:remote origin already exists.  
 
